@@ -61,6 +61,9 @@ button {
 	/* height: 250px; */
 	overflow: hidden;
 	border-radius: 24px;
+	border-color: #3883f6;
+	border-style: solid;
+	border-width: medium;
 }
 .image-container img {
 	max-width: 100%;
@@ -88,4 +91,22 @@ h3 {
 	color: #1f2937;
 	font-size: 18px;
 	text-align: center;
+}
+.quote-section {
+	background-color: #e5e7eb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+}
+.quote-container {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.quote-container p {
+	color: #1f2937;
+	font-size: 36px;
+	font-weight: lighter;
+	font-style: italic;
+	text-align: left;
 }
